@@ -1,9 +1,4 @@
-# TODO for Assignment 2 Completion
-
-- [x] Write C program filecopy.c using Windows API
-- [x] Compile with MinGW/gcc
-- [x] Test execution with various cases (success, empty file, nonexistent source, same file, access denied)
-- [x] Trace system calls with debugger (Windows) - documented in explanation
-- [x] Document system calls in numbered list - included in explanation
-- [x] Explain whole assignment step-by-step - added to code_explanation.md
-- [x] Create PDF with explanation (manual conversion) - opened in Notepad for print to PDF
+- Complete filecopy.c to include opening destination file, reading and writing loop, closing handles.
+- Add logging mechanism to collect system calls used during execution.
+- At the end of main, write the numbered list of system calls with descriptions to system_calls_log.txt.
+- Test the program by compiling and running.
